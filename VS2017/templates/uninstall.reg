@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\#VSCTYPE#\shell\Compile]
+
+[-HKEY_CLASSES_ROOT\#VSCPPTYPE#\shell\Compile]

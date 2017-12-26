@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\#VSCTYPE#\shell\Compile]
+@="Compile with cl (VS2017)"
+
+[HKEY_CLASSES_ROOT\#VSCTYPE#\shell\Compile\Command]
+@="cmd /k \"\"#CD#\\compile.cmd\" \"%1\"\""
+
+[HKEY_CLASSES_ROOT\#VSCPPTYPE#\shell\Compile]
+@="Compile with cl (VS2017)"
+
+[HKEY_CLASSES_ROOT\#VSCPPTYPE#\shell\Compile\Command]
+@="cmd /k \"\"#CD#\\compile.cmd\" \"%1\"\""
